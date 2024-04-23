@@ -1,0 +1,52 @@
+[
+  {
+    "email": "john.doe@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+   "email": "jane.smith@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "mike.jackson@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "emily.williams@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "alexander.brown@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "lisa.johnson@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "kevin.moore@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "sarah.clark@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "david.white@example.com",
+    "password": "example_password",
+    "account_type": 0
+  },
+  {
+    "email": "jessica.taylor@example.com",
+    "password": "example_password",
+    "account_type": 1
+  }
+]

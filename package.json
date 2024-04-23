@@ -1,0 +1,23 @@
+{
+  "name": "study-guide-generator-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alephnull7/study-guide-generator-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alephnull7/study-guide-generator-data/issues"
+  },
+  "homepage": "https://github.com/alephnull7/study-guide-generator-data#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.5"
+  }
+}
