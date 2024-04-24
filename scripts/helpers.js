@@ -1,5 +1,6 @@
 require('dotenv').config();
 const fs = require('fs');
+const path = require("path");
 
 const base_url = `${process.env.API_KEY}/api`;
 
@@ -40,13 +41,22 @@ async function sendDataToAPI(route, method, data) {
     }
 }
 
-function saveJSON(filePath, jsonData) {
-    fs.writeFile(filePath, jsonData, (err) => {
+function saveJSON(filePath, data) {
+    const jsonData = JSON.stringify(data, null, 2);
+    const directoryPath = path.dirname(filePath);
+
+    fs.mkdir(directoryPath, { recursive: true }, (err) => {
         if (err) {
-            console.error('Error writing JSON file:', err);
+            console.error('Error creating directory:', err);
             return;
         }
-        console.log('JSON file has been saved!');
+        fs.writeFile(filePath, jsonData, 'utf8', (err) => {
+            if (err) {
+                console.error('Error writing JSON file:', err);
+                return;
+            }
+            console.log(`${filePath} saved.`);
+        });
     });
 }
 
