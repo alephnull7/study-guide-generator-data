@@ -60,4 +60,30 @@ function saveJSON(filePath, data) {
     });
 }
 
-module.exports = { fetchDataFromAPI, sendDataToAPI, saveJSON };
+function retrieveFiles(directoryPath) {
+    try {
+        let fileList = [];
+        const files = fs.readdirSync(directoryPath);
+
+        // Iterate through the files in the directory
+        files.forEach(file => {
+            const filePath = path.join(directoryPath, file);
+            const fileStat = fs.statSync(filePath);
+
+            if (fileStat.isFile()) {
+                fileList.push(filePath);
+            } else if (fileStat.isDirectory()) {
+                const subDirectoryFiles = retrieveFiles(filePath);
+                // Concatenate the files found in the subdirectory to fileList
+                fileList = fileList.concat(subDirectoryFiles);
+            }
+        });
+
+        return fileList;
+    } catch (err) {
+        console.error('Error reading directory:', err);
+        return [];
+    }
+}
+
+module.exports = { fetchDataFromAPI, sendDataToAPI, saveJSON, retrieveFiles };
