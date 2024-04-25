@@ -4,10 +4,25 @@ const path = require("path");
 
 const base_url = `${process.env.API_KEY}/api`;
 
+async function getCredentials () {
+    const url = `${base_url}/auth/login`;
+    const response = await fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            email: process.env.EMAIL,
+            password: process.env.PASSWORD
+        })
+    });
+    const data = await response.json();
+    return await data.token;
+}
+
 async function fetchDataFromAPI(route) {
     try {
         const url = `${base_url}/${route}`;
-        console.log(url);
         const response = await fetch(url);
         if (!response.ok) {
             console.error('Failed to fetch input_data');
@@ -22,10 +37,12 @@ async function fetchDataFromAPI(route) {
 async function sendDataToAPI(route, method, data) {
     try {
         const url = `${base_url}/${route}`;
+        const token = await getCredentials();
         const response = await fetch(url, {
             method: method,
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${token}`
             },
             body: JSON.stringify(data),
         });
@@ -86,4 +103,18 @@ function retrieveFiles(directoryPath) {
     }
 }
 
-module.exports = { fetchDataFromAPI, sendDataToAPI, saveJSON, retrieveFiles };
+function srcDestWithCWD(relativePath) {
+    const source = pathWithCWD(relativePath);
+    const destination = source.replace('input_data', 'entities');
+    return { source, destination };
+}
+
+function pathWithCWD(relativePath) {
+    return path.join(process.cwd(), relativePath);
+}
+
+function jsonWithCWD(relativePath) {
+    return require(pathWithCWD(relativePath));
+}
+
+module.exports = { fetchDataFromAPI, sendDataToAPI, saveJSON, jsonWithCWD, pathWithCWD, srcDestWithCWD, retrieveFiles };
