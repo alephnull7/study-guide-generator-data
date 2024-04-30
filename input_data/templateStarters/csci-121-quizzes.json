@@ -1,0 +1,101 @@
+{
+  "course": 3,
+  "firstMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant designed to output JSON."
+    }
+  ],
+  "artifacts": [
+    {
+      "type": 2,
+      "name": "Chapter 1 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n1.1 COMPUTER SYSTEMS: Hardware, Software, High-Level Languages, Compilers, History Note\n1.2 PROGRAMMING AND PROBLEM-SOLVING: Algorithms, Program Design, Object-Oriented Programming, The Software Life Cycle\n1.3 INTRODUCTION TO C++: Origins of the C++ Language, A Sample C++ Program, Pitfall: Using the Wrong Slash in \\n, Programming Tip: Input and Output Syntax, Layout of a Simple C++ Program, Pitfall: Putting a Space Before the include File Name, Compiling and Running a C++ Program, Pitfall: Compiling a C++11 Program, Programming Tip: Getting Your Program to Run\n1.4 TESTING AND DEBUGGING: Kinds of Program Errors, Pitfall: Assuming Your Program Is Correct"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 2 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n2.1 VARIABLES AND ASSIGNMENTS: Variables, Names: Identifiers, Variable Declarations, Assignment Statements, Pitfall: Uninitialized Variables, Programming Tip: Use Meaningful Names\n2.2 INPUT AND OUTPUT: Output Using cout, Include Directives and Namespaces, Escape Sequences, Programming Tip: End Each Program with a \\n or endl, Formatting for Numbers with a Decimal Point, Input Using cin, Designing Input and Output, Programming Tip: Line Breaks in I/O\n2.3 DATA TYPES AND EXPRESSIONS: The Types int and double, Other Number Types, C++11 Types, The Type char, The Type bool, Introduction to the Class string, Type Compatibilities, Arithmetic Operators and Expressions, Pitfall: Whole Numbers in Division, More Assignment Statements\n2.4 SIMPLE FLOW OF CONTROL: A Simple Branching Mechanism, Pitfall: Strings of Inequalities, Pitfall: Using = in place of ==, Compound Statements, Simple Loop Mechanisms, Increment and Decrement Operators, Programming Example: Charge Card Balance, Pitfall: Infinite Loops\n2.5 PROGRAM STYLE: Indenting, Comments, Naming Constants"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 3 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n3.1 USING BOOLEAN EXPRESSIONS: Evaluating Boolean Expressions, Pitfall: Boolean Expressions Convert to int Values, Enumeration Types (Optional)\n3.2 MULTIWAY BRANCHES: Nested Statements, Programming Tip: Use Braces in Nested Statements, Multiway if-else Statements, Programming Example: State Income Tax, The switch Statement, Pitfall: Forgetting a break in a switch Statement, Using switch Statements for Menus, Blocks 135, Pitfall: Inadvertent Local Variables\n3.3 MORE ABOUT C++ LOOP STATEMENTS: The while Statements Reviewed, Increment and Decrement Operators Revisited, The for Statement, Pitfall: Extra Semicolon in a for Statement, What Kind of Loop to Use, Pitfall: Uninitialized Variables and Infinite Loops, The break Statement, Pitfall: The break Statement in Nested Loops\n3.4 DESIGNING LOOPS: Loops for Sums and Products, Ending a Loop, Nested Loops, Debugging Loops"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 4 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n4.1 TOP-DOWN DESIGN\n4.2 PREDEFINED FUNCTIONS: Using Predefined Functions, Random Number Generation, Type Casting, Older Form of Type Casting, Pitfall: Integer Division Drops the Fractional Part\n4.3 PROGRAMMER-DEFINED FUNCTIONS: Function Definitions, Functions That Return a Boolean Value, Alternate Form for Function Declarations, Pitfall: Arguments in the Wrong Order, Function Definition–Syntax Summary, More About Placement of Function Definitions, Programming Tip: Use Function Calls in Branching, Statements\n4.4 PROCEDURAL ABSTRACTION: The Black-Box Analogy, Programming Tip: Choosing Formal Parameter Names, Programming Tip: Nested Loops, Case Study: Buying Pizza, Programming Tip: Use Pseudocode\n4.5  SCOPE AND LOCAL VARIABLES: The Small Program Analogy, Programming Example: Experimental Peas Patch, Global Constants and Global Variables, Call-by-Value Formal Parameters Are Local Variables, Block Scope, Namespaces Revisited, Programming Example: The Factorial Function\n4.6  OVERLOADING FUNCTION NAMES: Introduction to Overloading, Programming Example: Revised Pizza-Buying Program 235, Automatic Type Conversion"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 5 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n5.1 void FUNCTIONS: Definitions of void Functions, Programming Example: Converting Temperatures, return Statements in void Functions\n5.2 CALL-BY-REFERENCE PARAMETERS: A First View of Call-by-Reference, Call-by-Reference in Detail, Programming Example: The swapValues Function, Mixed Parameter Lists, Programming Tip: What Kind of Parameter to Us, Pitfall: Inadvertent Local Variables\n5.3 USING PROCEDURAL ABSTRACTION: Functions Calling Functions, Preconditions and Postconditions, Case Study: Supermarket Pricing\n5.4 TESTING AND DEBUGGING FUNCTIONS: Stubs and Drivers\n5.5 GENERAL DEBUGGING TECHNIQUES: Keep an Open Mind, Check Common Errors, Localize the Error, The assert Macro"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 6 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n6.1 STREAMS AND BASIC FILE I/O: Why Use Files for I/O?, File I/O, Introduction to Classes and Objects, Programming Tip: Check Whether a File Was Opened Successfully, Techniques for File I/O, Appending to a File, File Names as Input\n6.2 TOOLS FOR STREAM I/O: Formatting Output with Stream Functions, Manipulators, Streams as Arguments to Functions, Programming Tip: Checking for the End of a File, A Note on Namespaces, Programming Example: Cleaning Up A File Format\n6.3 CHARACTER I/O: The Member Functions get and put, The putback Member Function, Programming Example: Checking Input, Pitfall: Unexpected '\\n' in Input, Programming Example: Another newLine Function, Default Arguments for Functions, The eof Member Function, Programming Example: Editing a Text File, Predefined Character Functions, Pitfall: toupper and tolower Return Values"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 7 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n7.1 INTRODUCTION TO ARRAYS: Declaring and Referencing Arrays, Programming Tip: Use for Loops with Arrays, Pitfall: Array Indexes Always Start with Zero, Programming Tip: Use a Defined Constant for the Size of an Array, Arrays in Memory, Pitfall: Array Index Out of Range, Initializing Arrays, Programming Tip: C++11 Range-Based for Statement\n7.2 ARRAYS IN FUNCTIONS: Indexed Variables as Function Arguments, Entire Arrays as Function Arguments, The const Parameter Modifier, Pitfall: Inconsistent Use of const Parameters, Functions That Return an Array, Case Study: Production Graph\n7.3 PROGRAMMING WITH ARRAYS: Partially Filled Arrays, Programming Tip: Do Not Skimp on Formal Parameters, Programming Example: Searching an Array, Programming Example: Sorting an Array, Programming Example: Bubble Sort\n7.4 MULTIDIMENSIONAL ARRAYS: Multidimensional Array Basics, Multidimensional Array Parameters, Programming Example: Two-Dimensional Grading Program, Pitfall: Using Commas Between Array Indexes"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 8 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n8.1 AN ARRAY TYPE FOR STRINGS: C-String Values and C-String Variables, Pitfall: Using = and == with C Strings, Other Functions in <cstring>, Pitfall: Copying Past the End of a C-String Using strcpy, C-String Input and Output, C-String-to-Number Conversions and Robust Input\n8.2 THE STANDARD string CLASS: Introduction to the Standard Class string, I/O with the Class string, Programming Tip: More Versions of getline, Pitfall: Mixing cin >> variable; and getline, String Processing with the Class string, Programming Example: Palindrome Testing, Converting between string Objects and C-Strings\n8.3 VECTORS: Vector Basics, Pitfall: Using Square Brackets Beyond the Vector Size, Programming Tip: Vector Assignment Is Well Behaved, Efficiency Issues"
+        }
+      ]
+    }
+  ],
+  "lastMessages": [
+    {
+      "role": "user",
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
+    },
+    {
+      "role": "user",
+      "content": "Create some problems that are conceptual and others that involve writing a small program"
+    }
+  ]
+}

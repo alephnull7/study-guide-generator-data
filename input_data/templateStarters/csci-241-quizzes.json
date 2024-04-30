@@ -9,7 +9,7 @@
   "artifacts": [
     {
       "type": 2,
-      "name": "Chapter 1",
+      "name": "Chapter 1 Quiz",
       "messages": [
         {
           "role": "user",
@@ -19,7 +19,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 2",
+      "name": "Chapter 2 Quiz",
       "messages": [
         {
           "role": "user",
@@ -29,7 +29,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 3",
+      "name": "Chapter 3 Quiz",
       "messages": [
         {
           "role": "user",
@@ -39,7 +39,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 4",
+      "name": "Chapter 4 Quiz",
       "messages": [
         {
           "role": "user",
@@ -49,7 +49,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 5",
+      "name": "Chapter 5 Quiz",
       "messages": [
         {
           "role": "user",
@@ -59,7 +59,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 6",
+      "name": "Chapter 6 Quiz",
       "messages": [
         {
           "role": "user",
@@ -69,7 +69,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 7",
+      "name": "Chapter 7 Quiz",
       "messages": [
         {
           "role": "user",
@@ -79,7 +79,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 8",
+      "name": "Chapter 8 Quiz",
       "messages": [
         {
           "role": "user",
@@ -89,7 +89,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 9",
+      "name": "Chapter 9 Quiz",
       "messages": [
         {
           "role": "user",
@@ -99,7 +99,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 10",
+      "name": "Chapter 10 Quiz",
       "messages": [
         {
           "role": "user",
@@ -109,7 +109,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 11",
+      "name": "Chapter 11 Quiz",
       "messages": [
         {
           "role": "user",
@@ -119,7 +119,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 12",
+      "name": "Chapter 12 Quiz",
       "messages": [
         {
           "role": "user",
@@ -129,7 +129,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 13",
+      "name": "Chapter 13 Quiz",
       "messages": [
         {
           "role": "user",
@@ -139,7 +139,7 @@
     },
     {
       "type": 2,
-      "name": "Chapter 14",
+      "name": "Chapter 14 Quiz",
       "messages": [
         {
           "role": "user",
@@ -151,11 +151,7 @@
   "lastMessages": [
     {
       "role": "user",
-      "content": "Give answers to problems"
-    },
-    {
-      "role": "user",
-      "content": "Use LaTeX markup when possible"
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
     }
   ]
 }

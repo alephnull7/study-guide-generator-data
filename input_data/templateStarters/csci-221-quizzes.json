@@ -1,0 +1,121 @@
+{
+  "course": 4,
+  "firstMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant designed to output JSON."
+    }
+  ],
+  "artifacts": [
+    {
+      "type": 2,
+      "name": "Chapter 9 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n9.1 POINTERS: Pointer Variables, Basic Memory Management, Pitfall: Dangling Pointers, Static Variables and Automatic Variables, Programming Tip: Define Pointer Types\n9.2 DYNAMIC ARRAYS: Array Variables and Pointer Variables, Creating and Using Dynamic Arrays, Pointer Arithmetic, Multidimensional Dynamic Arrays"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 10 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n10.1 STRUCTURES: Structures for Diverse Data, Pitfall: Forgetting a Semicolon in a Structure Definition, Structures as Function Arguments, Programming Tip: Use Hierarchical Structures, Initializing Structures\n10.2 CLASSES: Defining Classes and Member Functions, Public and Private Members, Programming Tip: Make All Member Variables Private, Programming Tip: Define Accessor and Mutator Functions, Programming Tip: Use the Assignment Operator with Objects, Programming Example: BankAccount Class - Version 1, Summary of Some Properties of Classes, Constructors for Initialization, Programming Tip: Always Include a Default Constructor, Pitfall: Constructors with No Arguments, Member Initializers and Constructor Delegation in C++11\n10.3 ABSTRACT DATA TYPES: Classes to Produce Abstract Data Types, Programming Example: Alternative Implementation of a Class\n10.4 INTRODUCTION TO INHERITANCE: Derived Classes, Defining Derived Classes"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 11 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n11.1 FRIEND FUNCTIONS: Programming Example: An Equality Function, Friend Functions, Programming Tip: Define Both Accessor Functions and Friend Functions, Programming Tip: Use Both Member and Nonmember Functions, Programming Example: Money Class - Version 1, Implementation of digitToInt, Pitfall: Leading Zeros in Number Constants, The const Parameter Modifier, Pitfall: Inconsistent Use of const\n11.2 OVERLOADING OPERATORS: Overloading Operators, Constructors for Automatic Type Conversion, Overloading Unary Operators, Overloading >> and <<\n11.3 ARRAYS AND CLASSES: Arrays of Classes, Arrays as Class Members, Programming Example: A Class for a Partially Filled Array\n11.4 CLASSES AND DYNAMIC ARRAYS: Programming Example: A String Variable Class, Destructors, Pitfall: Pointers as Call-By-Value Parameters, Copy Constructors, Overloading the Assignment Operator"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 12 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n12.1 SEPARATE COMPILATION: ADTs Reviewed, Case Study: DigitalTime - A Class Compiled Separately, Using #ifndef, Programming Tip: Defining Other Libraries\n12.2 NAMESPACES: Namespaces and using Directives, Creating a Namespace, Qualifying Names, A Subtle Point About Namespaces, Unnamed Namespaces, Programming Tip: Choosing a Name for a Namespace, Pitfall: Confusing the Global Namespace and the Unnamed Namespace"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 13 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n13.1 NODES AND LINKED LISTS: Nodes, nullptr, Linked Lists, Inserting a Node at the Head of a List, Pitfall: Losing Nodes, Searching a Linked List, Pointers as Iterators, Inserting and Removing Nodes Inside a List, Pitfall: Using the Assignment Operator with Dynamic Data Structures, Variations on Linked Lists, Linked Lists of Classes\n13.2 STACKS AND QUEUES: Stacks, Programming Example: A Stack Class, Queues, Programming Example: A Queue Class"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 14 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n14.1 RECURSIVE FUNCTIONS FOR TASKS: Case Study: Vertical Numbers, A Closer Look at Recursion, Pitfall: Infinite Recursion, Stacks for Recursion, Pitfall: Stack Overflow, Recursion Versus Iteration\n14.2 RECURSIVE FUNCTIONS FOR VALUES: General Form for a Recursive Function That Returns a Value, Programming Example: Another Powers Function\n14.3 THINKING RECURSIVELY: Recursive Design Techniques, Case Study: Binary Search - An Example of Recursive Thinking, Programming Example: A Recursive Member Function"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 15 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n15.1 INHERITANCE BASICS: Derived Classes, Constructors in Derived Classes, Pitfall: Use of Private Members Variables from the Base Class, Pitfall: Private Member Functions Are Effectively Not Inherited, The protected Qualifier, Redefinition of Member Functions, Redefining Versus Overloading, Access to a Redefined Base Function\n15.2 INHERITANCE DETAILS: Functions That Are Not Inherited, Assignment Operators and Copy Constructors in Derived Classes, Destructors in Derived Classes\n15.3 POLYMORPHISM: Late Binding, Virtual Functions in C++, Virtual Functions and Extended Type Compatibility, Pitfall: The Slicing Problem, Pitfall: Not Using Virtual Member Functions, Pitfall: Attempting to Compile Class Definitions Without Definitions for Every Virtual Member Function, Programming Tip: Make Destructors Virtual"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 16 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n16.1 EXCEPTION-HANDLING BASICS: A Toy Example of Exception Handling, Defining Your Own Exception Classes, Multiple Throws and Catches, Pitfall: Catch the More Specific Exception First, Programming Tip: Exception Classes Can Be Trivial, Throwing an Exception in a Function, Exception Specification, Pitfall: Exception Specifications in Derived Classes\n16.2 PROGRAMMING TECHNIQUES FOR EXCEPTION HANDLING: When to Throw an Exception, Pitfall: Uncaught Exceptions, Pitfall: Nested try-catch Blocks, Pitfall: Overuse of Exceptions, Exception Class Hierarchies, Testing for Available Memory, Rethrowing an Exception"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 17 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n17.1 TEMPLATES FOR ALGORITHM ABSTRACTION: Templates for Functions, Pitfall: Compiler Complications, Programming Example: A Generic Sorting Function, Programming Tip: How to Define Templates, Pitfall: Using a Template with an Inappropriate Type\n17.2 TEMPLATES FOR DATA ABSTRACTION: Syntax for Class Templates, Programming Example: An Array Class"
+        }
+      ]
+    },
+    {
+      "type": 2,
+      "name": "Chapter 18 Quiz",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory C++ exam covering these sections:\n18.1 ITERATORS: using Declarations, Iterator Basics, Programming Tip: Use auto to Simplify Variable Declarations, Pitfall: Compiler Problems, Kinds of Iterators, Constant and Mutable Iterator, Reverse Iterators, Other Kinds of Iterators\n18.2 CONTAINERS: Sequential Containers, Pitfall: Iterators and Removing Elements, Programming Tip: Type Definitions in Containers, Container Adapters stack and queue, Associative Containers set and map, Programming Tip: Use Initialization, Ranged for, and auto with Containers, Efficiency\n18.3 GENERIC ALGORITHMS: Running Times and Big-O Notation, Container Access Running Times, Nonmodifying Sequence Algorithms, Container Modifying Algorithms, Set Algorithms, Sorting Algorithms\n18.4 C++ IS EVOLVING: std::array, Regular Expressions, Threads, Smart Pointers"
+        }
+      ]
+    }
+  ],
+  "lastMessages": [
+    {
+      "role": "user",
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
+    },
+    {
+      "role": "user",
+      "content": "Create some problems that are conceptual and others that involve writing a small program"
+    }
+  ]
+}
