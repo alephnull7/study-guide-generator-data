@@ -17,7 +17,7 @@ async function getCredentials () {
         })
     });
     const data = await response.json();
-    return await data.token;
+    return data.token;
 }
 
 async function fetchDataFromAPI(route) {
