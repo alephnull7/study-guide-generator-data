@@ -1,0 +1,161 @@
+{
+  "course": 7,
+  "firstMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant designed to output JSON."
+    }
+  ],
+  "artifacts": [
+    {
+      "type": 1,
+      "name": "Chapter 1 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n1. Introduction to Statistics\n1.1 Statistical and Critical Thinking\n1.2 Types of Data\n1.3 Collecting Sample Data\n1.4 Ethics in Statistics"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 2 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n2. Exploring Data with Tables and Graphs\n2.1 Frequency Distributions for Organizing and Summarizing Data\n2.2 Histograms\n2.3 Graphs That Enlighten and Graphs That Deceive\n2.4 Scatterplots, Correlation, and Regression"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 3 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n3. Describing, Exploring, and Comparing Data\n3.1 Measures of Center\n3.2 Measures of Variation\n3.3 Measures of Relative Standing and Boxplots"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 4 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n4. Probability\n4.1 Basic Concepts of Probability\n4.2 Addition Rule and Multiplication Rule\n4.3 Complements, Conditional Probability, and Bayes' Theorem\n4.4 Counting\n4.5 Simulations for Hypothesis Tests"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 5 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n5. Discrete Probability Distributions\n5.1 Probability Distributions\n5.2 Binomial Probability Distributions\n5.3 Poisson Probability Distributions\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 6 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n6. Normal Probability Distributions\n6.1 The Standard Normal Distribution\n6.2 Real Applications of Normal Distributions\n6.3 Sampling Distributions and Estimators\n6.4 The Central Limit Theorem\n6.5 Assessing Normality\n6.6 Normal as Approximation to Binomial "
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 7 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n7. Estimating Parameters and Determining Sample Sizes\n7.1 Estimating a Population Proportion\n7.2 Estimating a Population Mean\n7.3 Estimating a Population Standard Deviation or Variance\n7.4 Bootstrapping: Using Technology for Estimates"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 8 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n8. Hypothesis Testing\n8.1 Basics of Hypothesis Testing\n8.2 Testing a Claim About a Proportion\n8.3 Testing a Claim About a Mean\n8.4 Testing a Claim About a Standard Deviation or Variance\n8.5 Resampling: Using Technology for Hypothesis Testing\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 9 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n9. Inferences from Two Samples\n9.1 Two Proportions\n9.2 Two Means: Independent Samples\n9.3 Matched Pairs\n9.4 Two Variances or Standard Deviations\n9.5 Resampling: Using Technology for Inferences\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 10 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n10. Correlation and Regression\n10.1 Correlation\n10.2 Regression\n10.3 Prediction Intervals and Variation\n10.4 Multiple Regression\n10.5 Nonlinear Regression\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 11 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n11. Goodness-of-Fit and Contingency Tables\n11.1 Goodness-of-Fit\n11.2 Contingency Tables\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 12 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n12. Analysis of Variance\n12.1 One-Way ANOVA\n12.2 Two-Way ANOVA\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 13 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n13. Nonparametric Tests\n13.1 Basics of Nonparametric Tests\n13.2 Sign Test\n13.3 Wilcoxon Signed-Ranks Test for Matched Pairs\n13.4 Wilcoxon Rank-Sum Test for Two Independent Samples\n13.5 Kruskal-Wallis Test for Three or More Samples\n13.6 Rank Correlation\n13.7 Runs Test for Randomness\n"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 14 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory algebra-based statistics exam covering these sections:\n14. Statistics Process Control\n14.1 Control Charts for Variation and Mean\n14.2 Control Charts for Attributes"
+        }
+      ]
+    }
+  ],
+  "lastMessages": [
+    {
+      "role": "user",
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
+    },
+    {
+      "role": "user",
+      "content": "Create some problems that are conceptual and others that involve solving problems"
+    }
+  ]
+}

@@ -8,8 +8,8 @@
   ],
   "artifacts": [
     {
-      "type": 2,
-      "name": "Chapter 1 Quiz",
+      "type": 1,
+      "name": "Chapter 1 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -18,8 +18,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 2 Quiz",
+      "type": 1,
+      "name": "Chapter 2 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -28,8 +28,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 3 Quiz",
+      "type": 1,
+      "name": "Chapter 3 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -38,8 +38,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 4 Quiz",
+      "type": 1,
+      "name": "Chapter 4 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -48,8 +48,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 5 Quiz",
+      "type": 1,
+      "name": "Chapter 5 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 6 Quiz",
+      "type": 1,
+      "name": "Chapter 6 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 7 Quiz",
+      "type": 1,
+      "name": "Chapter 7 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 8 Quiz",
+      "type": 1,
+      "name": "Chapter 8 Study Guide",
       "messages": [
         {
           "role": "user",

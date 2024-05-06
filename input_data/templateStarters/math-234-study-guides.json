@@ -1,0 +1,71 @@
+{
+  "course": 6,
+  "firstMessages": [
+    {
+      "role": "system",
+      "content": "You are a helpful assistant designed to output JSON."
+    }
+  ],
+  "artifacts": [
+    {
+      "type": 1,
+      "name": "Chapter 1 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory calculus exam covering these sections:\n1. Functions and Models\n1.1. Four Ways to Represent a Function: Representations of Functions, Piecewise Defined Functions, Symmetry, Increasing and Decreasing Functions\n1.2. Mathematical Models: A Catalog of Essential Functions: Linear Models, Polynomials, Power Functions, Rational Functions, Algebraic Functions, Trigonometric Functions, Exponential Functions, Logarithmic Functions\n1.3. New Functions from Old Functions: Transformations of Functions, Combinations of Functions\n1.4. Graphing Calculators and Computers\n1.5. Exponential Functions: Applications of Exponential Functions, The Number e\n1.6. Inverse Functions and Logarithms: Logarithmic Functions, Natural Logarithms, Graph and Growth of the Natural Logarithm\n1.7. Parametric Curves: Graphing Devices, The Cycloid, Laboratory Project. Running Circles Around Circles"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 2 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory calculus exam covering these sections:\n2. Limits and Derivatives\n2.1. The Tangent and Velocity Problems: The Tangent Problem, The Velocity Problem\n2.2. The Limit of a Function: One-Sided Limits\n2.3. Calculating Limits Using the Limit Laws\n2.4. Continuity\n2.5. Limits Involving Infinity: Infinite Limits, Limits at Infinity, Infinite Limits at Infinity\n2.6. Derivatives and Rates of Change: Tangents, Velocities, Derivatives, Rates of Change, Writing Project. Early Methods for Finding Tangents\n2.7. The Derivative as a Function: Other Notations, How Can a Function Fail to Be Differentiable?, Higher Derivatives\n2.8. What Does f′ Say About f?: What Does f″ Say About f?, Antiderivatives"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 3 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory calculus exam covering these sections:\n3. Differentiation Rules\n3.1. Derivatives of Polynomials and Exponential Functions: Power Functions, New Derivatives from Old, Exponential Functions, Applied Project. Building a Better Roller Coaster\n3.2. The Product and Quotient Rules: The Product Rule, The Quotient Rule\n3.3. Derivatives of Trigonometric Functions\n3.4. The Chain Rule; Comments on the Proof of the Chain Rule, Tangents to Parametric Curves, How to Prove the Chain Rule, Laboratory Project. Bézier Curves, Applied Project. Where Should a Pilot Start Descent?\n3.5. Implicit Differentiation\n3.6. Inverse Trigonometric Functions and Their Derivatives\n3.7. Derivatives of Logarithmic Functions: Logarithmic Differentiation, The Number e as a Limit, Discovery Project. Hyperbolic Functions\n3.8. Rates of Change in the Natural and Social Sciences: Physics, Chemistry, Biology, Economics, Other Sciences, A Single Idea, Many Interpretations\n3.9. Linear Approximations and Differentials: Applications to Physics, Differentials, Laboratory Project. Taylor Polynomials"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 4 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory calculus exam covering these sections:\n4. Applications of Differentiation\n4.1. Related Rates\n4.2. Maximum and Minimum Values: Applied Project. The Calculus of Rainbows\n4.3. Derivatives and the Shapes of Curves: Increasing and Decreasing Functions, Concavity\n4.4. Graphing with Calculus and Calculators\n4.5. Indeterminate Forms and l’Hospital’s Rule: Indeterminate Products, Indeterminate Differences, Indeterminate Powers, Writing Project. The Origins of L’Hospital’s Rule\n4.6. Optimization Problems: Applications to Business and Economics, Applied Project. The Shape of a Can\n4.7. Newton’s Method\n4.8. Antiderivatives: Rectilinear Motion"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "Chapter 5 Study Guide",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create 20 problems for an introductory calculus exam covering these sections:\n5. Integrals\n5.1. Areas and Distances: The Area Problem, The Distance Problem\n5.2. The Definite Integral: Evaluating Integrals, The Midpoint Rule, Properties of the Definite Integral\n5.3. Evaluating Definite Integrals: Indefinite Integrals, Applications, Discovery Project. Area Functions\n5.4. The Fundamental Theorem of Calculus: Differentiation and Integration as Inverse Processes, Proof of FTC1, Writing Project. Newton, Leibniz, and the Invention of Calculus\n5.5. The Substitution Rule: Definite Integrals, Symmetry\n5.6. Integration by Parts\n5.7. Additional Techniques of Integration: Trigonometric Integrals, Trigonometric Substitution, Partial Fractions\n5.8. Integration Using Tables and Computer Algebra Systems: Tables of Integrals, Computer Algebra Systems, Can We Integrate All Continuous Functions?, Discovery Project. Patterns in Integrals\n5.9. Approximate Integration: Simpson’s Rule\n5.10. Improper Integrals: Type 1: Infinite Intervals, Type 2: Discontinuous Integrands, A Comparison Test for Improper Integrals"
+        }
+      ]
+    }
+  ],
+  "lastMessages": [
+    {
+      "role": "user",
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
+    },
+    {
+      "role": "user",
+      "content": "Create some problems that are conceptual and others that involve solving problems"
+    }
+  ]
+}

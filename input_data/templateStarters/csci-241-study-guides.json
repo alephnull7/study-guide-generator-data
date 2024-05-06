@@ -13,7 +13,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n1.1 Propositions and logical operations\n1.2 Evaluating compound propositions\n1.3 Conditional statements\n1.4 Logical equivalence\n1.5 Laws of propositional logic\n1.6 Predicates and quantifiers\n1.7 Quantified Statements\n1.8 De Morgan’s law for quantified statements\n1.9 Nested quantifiers\n1.10 More nested quantified statements\n1.11 Logical reasoning\n1.12 Rules of inference with propositions\n1.13 Rules of inference with quantifiers"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n1.1 Propositions and logical operations\n1.2 Evaluating compound propositions\n1.3 Conditional statements\n1.4 Logical equivalence\n1.5 Laws of propositional logic\n1.6 Predicates and quantifiers\n1.7 Quantified Statements\n1.8 De Morgan’s law for quantified statements\n1.9 Nested quantifiers\n1.10 More nested quantified statements\n1.11 Logical reasoning\n1.12 Rules of inference with propositions\n1.13 Rules of inference with quantifiers"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n3.1 Sets and subsets\n3.2 Set of sets\n3.3 Union and intersection\n3.4 More set operations\n3.5 Set identities\n3.6 Cartesian products\n3.7 Partitions"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n3.1 Sets and subsets\n3.2 Set of sets\n3.3 Union and intersection\n3.4 More set operations\n3.5 Set identities\n3.6 Cartesian products\n3.7 Partitions"
         }
       ]
     },
@@ -43,7 +43,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n4.1 Definition of functions\n4.2 Floor and ceiling functions\n4.3 Properties of Functions\n4.4 The Inverse of a function\n4.5 Composition of functions\n4.6 Logarithms and exponents"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n4.1 Definition of functions\n4.2 Floor and ceiling functions\n4.3 Properties of Functions\n4.4 The Inverse of a function\n4.5 Composition of functions\n4.6 Logarithms and exponents"
         }
       ]
     },
@@ -53,7 +53,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n5.1 An introduction to Boolean algebra\n5.2 Boolean functions\n5.3 Disjunctive and conjunctive normal form\n5.4 Functional completeness\n5.5 Boolean satisfiability\n5.6 Gates and circuits"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n5.1 An introduction to Boolean algebra\n5.2 Boolean functions\n5.3 Disjunctive and conjunctive normal form\n5.4 Functional completeness\n5.5 Boolean satisfiability\n5.6 Gates and circuits"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n6.1 Introduction to binary relations\n6.2 Properties of binary relations\n6.3 Directed graphs, paths, and cycles\n6.4 Composition of relations\n6.5 Graph powers and the transitive closure\n6.6 Matrix multiplication and graph powers\n6.7 Partial orders\n6.8 Strict orders and directed acyclic graphs\n6.9 Equivalence relations\n6.10 N-ary relations and relational databases"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n6.1 Introduction to binary relations\n6.2 Properties of binary relations\n6.3 Directed graphs, paths, and cycles\n6.4 Composition of relations\n6.5 Graph powers and the transitive closure\n6.6 Matrix multiplication and graph powers\n6.7 Partial orders\n6.8 Strict orders and directed acyclic graphs\n6.9 Equivalence relations\n6.10 N-ary relations and relational databases"
         }
       ]
     },
@@ -73,7 +73,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n7.1 An introduction to algorithms\n7.2 Asymptotic growth of functions\n7.3 Analysis of algorithms\n7.4 Finite state machines\n7.5 Turing machines\n7.6 Decision problems and languages"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n7.1 An introduction to algorithms\n7.2 Asymptotic growth of functions\n7.3 Analysis of algorithms\n7.4 Finite state machines\n7.5 Turing machines\n7.6 Decision problems and languages"
         }
       ]
     },
@@ -83,7 +83,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n8.1 Sequences\n8.2 Recurrence relations\n8.3 Summations\n8.4 Mathematical induction\n8.5 More inductive proofs\n8.6 Strong induction and well-ordering\n8.7 Loop invariants\n8.8 Recursive definitions\n8.9 Structural induction\n8.10 Recursive algorithms\n8.11 Induction and recursive algorithms\n8.12 Analyzing the time complexity of recursive algorithms\n8.13 Divide-and-conquer algorithms: Introduction and mergesort\n8.14 Divide-and-conquer algorithms: Binary search\n8.15 Solving linear homogeneous recurrence relations\n8.16 Solving linear non-homogeneous recurrence relations\n8.17 Divide-and-conquer recurrence relations"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n8.1 Sequences\n8.2 Recurrence relations\n8.3 Summations\n8.4 Mathematical induction\n8.5 More inductive proofs\n8.6 Strong induction and well-ordering\n8.7 Loop invariants\n8.8 Recursive definitions\n8.9 Structural induction\n8.10 Recursive algorithms\n8.11 Induction and recursive algorithms\n8.12 Analyzing the time complexity of recursive algorithms\n8.13 Divide-and-conquer algorithms: Introduction and mergesort\n8.14 Divide-and-conquer algorithms: Binary search\n8.15 Solving linear homogeneous recurrence relations\n8.16 Solving linear non-homogeneous recurrence relations\n8.17 Divide-and-conquer recurrence relations"
         }
       ]
     },
@@ -93,7 +93,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n9.1 The Division Algorithm\n9.2 Modular arithmetic\n9.3 Prime factorizations\n9.4 Factoring and primality testing\n9.5 Greatest common divisor and Euclid’s algorithm\n9.6 Number representation\n9.7 Fast exponentiation\n9.8 Introduction to cryptography\n9.9 The RSA cryptosystem"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n9.1 The Division Algorithm\n9.2 Modular arithmetic\n9.3 Prime factorizations\n9.4 Factoring and primality testing\n9.5 Greatest common divisor and Euclid’s algorithm\n9.6 Number representation\n9.7 Fast exponentiation\n9.8 Introduction to cryptography\n9.9 The RSA cryptosystem"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n10.1 Sum and product rules\n10.2 The bijection rule\n10.3 The generalized product rule\n10.4 Counting permutations\n10.5 Counting subsets\n10.6 Subset and permutation examples\n10.7 Counting by complement\n10.8 Permutations with repetitions\n10.9 Counting multisets\n10.10 Assignment problems: Balls in bins\n10.11 Inclusion-exclusion principle\n10.12 Counting problem examples"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n10.1 Sum and product rules\n10.2 The bijection rule\n10.3 The generalized product rule\n10.4 Counting permutations\n10.5 Counting subsets\n10.6 Subset and permutation examples\n10.7 Counting by complement\n10.8 Permutations with repetitions\n10.9 Counting multisets\n10.10 Assignment problems: Balls in bins\n10.11 Inclusion-exclusion principle\n10.12 Counting problem examples"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n11.1 Generating permutations and combinations\n11.2 Binomial coefficients and combinatorial identities\n11.3 The pigeonhole principle\n11.4 Generating functions"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n11.1 Generating permutations and combinations\n11.2 Binomial coefficients and combinatorial identities\n11.3 The pigeonhole principle\n11.4 Generating functions"
         }
       ]
     },
@@ -123,7 +123,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n12.1 Probability of an event\n12.2 Unions and complements of events\n12.3 Conditional probability and independence\n12.4 Bayes’ Theorem\n12.5 Random variables\n12.6 Expectation of a random variable\n12.7 Linearity of expectations\n12.8 Bernoulli trials and the binomial distribution"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n12.1 Probability of an event\n12.2 Unions and complements of events\n12.3 Conditional probability and independence\n12.4 Bayes’ Theorem\n12.5 Random variables\n12.6 Expectation of a random variable\n12.7 Linearity of expectations\n12.8 Bernoulli trials and the binomial distribution"
         }
       ]
     },
@@ -133,7 +133,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n13.1 Introduction to graphs\n13.2 Graph representations\n13.3 Graph isomorphism\n13.4 Walks, trails, circuits, paths, and cycles\n13.5 Graph connectivity\n13.6 Euler circuits and trails\n13.7 Hamiltonian cycles and paths\n13.8 Planar graphs\n13.9 Graph coloring"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n13.1 Introduction to graphs\n13.2 Graph representations\n13.3 Graph isomorphism\n13.4 Walks, trails, circuits, paths, and cycles\n13.5 Graph connectivity\n13.6 Euler circuits and trails\n13.7 Hamiltonian cycles and paths\n13.8 Planar graphs\n13.9 Graph coloring"
         }
       ]
     },
@@ -143,7 +143,7 @@
       "messages": [
         {
           "role": "user",
-          "content": "Create a study guide for a discrete math exam covering these sections:\n14.1 Introduction to trees\n14.2 Tree application examples\n14.3 Properties of trees\n14.4 Tree traversals\n14.5 Spanning trees and graph traversals\n14.6 Minimum spanning trees"
+          "content": "Create 20 problems for a discrete math exam covering these sections:\n14.1 Introduction to trees\n14.2 Tree application examples\n14.3 Properties of trees\n14.4 Tree traversals\n14.5 Spanning trees and graph traversals\n14.6 Minimum spanning trees"
         }
       ]
     }
@@ -151,15 +151,11 @@
   "lastMessages": [
     {
       "role": "user",
-      "content": "Return an array of 'topics' with 'topic' and 'details' properties"
+      "content": "Return an array of 'problems' with 'question' and 'answer' properties"
     },
     {
       "role": "user",
-      "content": "Have each 'details' consist of an array of 10 strings"
-    },
-    {
-      "role": "user",
-      "content": "For each element in the 'details' array, give an important concept related to the 'topic'"
+      "content": "Create some problems that are conceptual and others that involve solving problems"
     }
   ]
 }

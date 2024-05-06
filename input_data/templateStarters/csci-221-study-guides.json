@@ -8,8 +8,8 @@
   ],
   "artifacts": [
     {
-      "type": 2,
-      "name": "Chapter 9 Quiz",
+      "type": 1,
+      "name": "Chapter 9 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -18,8 +18,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 10 Quiz",
+      "type": 1,
+      "name": "Chapter 10 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -28,8 +28,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 11 Quiz",
+      "type": 1,
+      "name": "Chapter 11 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -38,8 +38,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 12 Quiz",
+      "type": 1,
+      "name": "Chapter 12 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -48,8 +48,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 13 Quiz",
+      "type": 1,
+      "name": "Chapter 13 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 14 Quiz",
+      "type": 1,
+      "name": "Chapter 14 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -68,8 +68,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 15 Quiz",
+      "type": 1,
+      "name": "Chapter 15 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -78,8 +78,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 16 Quiz",
+      "type": 1,
+      "name": "Chapter 16 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -88,8 +88,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 17 Quiz",
+      "type": 1,
+      "name": "Chapter 17 Study Guide",
       "messages": [
         {
           "role": "user",
@@ -98,8 +98,8 @@
       ]
     },
     {
-      "type": 2,
-      "name": "Chapter 18 Quiz",
+      "type": 1,
+      "name": "Chapter 18 Study Guide",
       "messages": [
         {
           "role": "user",
