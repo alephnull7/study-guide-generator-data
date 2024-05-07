@@ -1,33 +1,25 @@
-create database postgres
-    with owner postgres;
-
-comment on database postgres is 'default administrative connection database';
-
-create table public.artifact_type
+create table artifact_type
 (
     _id  serial
         primary key,
     name varchar(255) not null
 );
 
-alter table public.artifact_type
+alter table artifact_type
     owner to postgres;
 
-create table public.users
+create table users
 (
-    _id          serial
-        primary key,
     account_type smallint                                       not null,
     uid          varchar(255)                                   not null
-        constraint uid_unique
-            unique,
+        primary key,
     username     varchar(255) default 'NULL'::character varying not null
 );
 
-alter table public.users
+alter table users
     owner to postgres;
 
-create table public.department
+create table department
 (
     _id        serial
         primary key,
@@ -39,102 +31,102 @@ create table public.department
             unique
 );
 
-alter table public.department
+alter table department
     owner to postgres;
 
-create table public.course
+create table course
 (
     _id        serial
         primary key,
     name       varchar(255) not null,
-    number     smallint,
-    department integer
+    number     smallint     not null,
+    department integer      not null
         constraint fk_department
-            references public.department
+            references department
 );
 
-alter table public.course
+alter table course
     owner to postgres;
 
-create table public.classroom
-(
-    _id        serial
-        primary key,
-    name       varchar(255) not null,
-    instructed integer      not null
-        references public.users
-        constraint fk_instructor
-            references public.users,
-    course     integer
-        constraint fk_course
-            references public.course
-);
-
-alter table public.classroom
-    owner to postgres;
-
-create table public.classroom_student
-(
-    student_id   integer not null
-        references public.users
-        constraint fk_student_id
-            references public.users,
-    classroom_id integer not null
-        references public.classroom
-        constraint fk_classroom_student_id
-            references public.classroom,
-    primary key (classroom_id, student_id)
-);
-
-alter table public.classroom_student
-    owner to postgres;
-
-create table public.artifact_template
+create table artifact_template
 (
     _id      serial
         primary key,
     messages jsonb        not null,
     type     integer      not null
         constraint fk_type
-            references public.artifact_type,
+            references artifact_type,
     course   integer      not null
         constraint fk_course
-            references public.course,
+            references course,
     name     varchar(255) not null
 );
 
-alter table public.artifact_template
+alter table artifact_template
     owner to postgres;
 
-create table public.artifact
+create table classroom
+(
+    _id        serial
+        primary key,
+    name       varchar(255) not null,
+    instructed varchar(255) not null
+        references users
+        constraint fk_instructor
+            references users,
+    course     integer
+        constraint fk_course
+            references course
+);
+
+alter table classroom
+    owner to postgres;
+
+create table artifact
 (
     _id      serial
         primary key,
     template integer
         constraint fk_template
-            references public.artifact_template,
+            references artifact_template,
     name     varchar(255) not null,
     content  jsonb        not null,
-    owner    integer      not null
+    owner    varchar(255) not null
         constraint fk_owner
-            references public.users
+            references users
 );
 
-alter table public.artifact
+alter table artifact
     owner to postgres;
 
-create table public.classroom_artifact
+create table classroom_artifact
 (
     artifact_id  integer not null
-        references public.artifact
+        references artifact
         constraint fk_artifact_id
-            references public.artifact,
+            references artifact,
     classroom_id integer not null
-        references public.classroom
+        references classroom
         constraint fk_classroom_id
-            references public.classroom,
+            references classroom,
     primary key (classroom_id, artifact_id)
 );
 
-alter table public.classroom_artifact
+alter table classroom_artifact
+    owner to postgres;
+
+create table classroom_student
+(
+    student_id   varchar(255) not null
+        references users
+        constraint fk_student_id
+            references users,
+    classroom_id integer      not null
+        references classroom
+        constraint fk_classroom_student_id
+            references classroom,
+    primary key (classroom_id, student_id)
+);
+
+alter table classroom_student
     owner to postgres;
